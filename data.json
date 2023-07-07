@@ -312,5 +312,252 @@
         }
       }
     }
+  ],
+  "lucca": [
+    {
+      "id": "list-leaves",
+      "data": {
+        "count": 4,
+        "more": false,
+        "leaves": [
+          {
+            "department": {
+              "id": 88,
+              "name": "Marketing"
+            },
+            "users": [
+              {
+                "user": {
+                  "ownerId": 305,
+                  "displayName": "Carlee BUN",
+                  "firstName": "Carlee",
+                  "lastName": "BUN",
+                  "picture": {
+                    "href": "https://xsgames.co/randomusers/assets/avatars/female/64.jpg"
+                  },
+                  "department": {
+                    "id": 88,
+                    "name": "Marketing"
+                  }
+                },
+                "startsOn": "2023-06-30T00:00:00",
+                "startsAM": false,
+                "endsOn": "2023-07-09T00:00:00",
+                "endsAM": false
+              },
+              {
+                "user": {
+                  "ownerId": 307,
+                  "displayName": "Reinaldo END",
+                  "firstName": "Reinaldo",
+                  "lastName": "END",
+                  "picture": {
+                    "href": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg"
+                  },
+                  "department": {
+                    "id": 88,
+                    "name": "Marketing"
+                  }
+                },
+                "startsOn": "2023-06-25T00:00:00",
+                "startsAM": false,
+                "endsOn": "2023-07-09T00:00:00",
+                "endsAM": false
+              }
+            ]
+          },
+          {
+            "department": {
+              "id": 23,
+              "name": "R&D"
+            },
+            "users": [
+              {
+                "user": {
+                  "ownerId": 265,
+                  "displayName": "Jeremy GORDON",
+                  "firstName": "Jeremy",
+                  "lastName": "GORDON",
+                  "picture": {
+                    "href": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg"
+                  },
+                  "department": {
+                    "id": 23,
+                    "name": "R&D"
+                  }
+                },
+                "startsOn": "2023-06-30T00:00:00",
+                "startsAM": false,
+                "endsOn": "2023-07-02T00:00:00",
+                "endsAM": false
+              },
+              {
+                "user": {
+                  "ownerId": 129,
+                  "displayName": "Mayra BEDNARZ",
+                  "firstName": "Mayra",
+                  "lastName": "BEDNARZ",
+                  "picture": {
+                    "href": "https://xsgames.co/randomusers/assets/avatars/female/15.jpg"
+                  },
+                  "department": {
+                    "id": 23,
+                    "name": "R1D"
+                  }
+                },
+                "startsOn": "2023-06-22T00:00:00",
+                "startsAM": false,
+                "endsOn": "2023-07-14T00:00:00",
+                "endsAM": false
+              }
+            ]
+          },
+          {
+            "department": {
+              "id": 12,
+              "name": "Sales"
+            },
+            "users": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "users-me",
+      "data": [
+        {
+          "name": "John Doe",
+          "username": "Moriah.Stanton",
+          "email": "Rey.Padberg@karina.biz",
+          "department": {
+            "id": 88,
+            "name": "Marketing"
+          }
+        }
+      ]
+    }
+  ],
+
+  "outOfOffice": [
+    {
+      "id": "google_slack",
+      "data": {
+        "isCurrentlyOutOfOffice": false,
+        "apps": [
+            {
+                "type": "gmail",
+                "id": "toggle_gmail",
+                "label": "Gmail",
+                "description": "Activate the vacation responder",
+                "icon": ""
+            },
+            {
+                "type": "slack",
+                "label": "Slack",
+                "id": "toggle_slack",
+                "description": "Update your status and set yourself as away",
+                "icon": ""
+            },
+            {
+                "type": "calendar",
+                "id": "toggle_calendar",
+                "label": "Calendar",
+                "description": "Create an out of office event",
+                "icon": ""
+            }
+        ],
+        "hasNextOutOfOffice": true,
+        "nextOutOfOffice": [
+            {
+                "apps": [
+                    {
+                        "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+                    },
+                    {
+                        "logo": "https://cdn.icon-icons.com/icons2/2631/PNG/512/google_calendar_new_logo_icon_159141.png"
+                    }
+                ],
+                "startDate": "2023-07-07T08:00:00Z",
+                "endDate": "2023-07-09T08:00:00Z"
+            },
+            {
+                "apps": [
+                    {
+                        "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+                    }
+                ],
+                "startDate": "2023-07-07T08:00:00Z",
+                "endDate": "2023-07-09T08:00:00Z"
+            }
+        ]
+    }
+    }
+  ],
+
+  "jira": [
+    {
+      "id": "list",
+      "data": {
+        "expand": "schema,names",
+        "startAt": 0,
+        "maxResults": 15,
+        "total": 302,
+        "issues": [
+          {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "99991",
+            "key": "KEY-001",
+            "fields": {
+              "summary": "Jira ticket #1",
+              "assignee": {
+                "displayName": "John Doe"
+              },
+              "status": {
+                "description": "",
+                "name": "IN PROGRESS",
+                "id": "101"
+              }
+            }
+          },
+          {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "99992",
+            "key": "KEY-002",
+            "fields": {
+              "summary": "Jira ticket #2",
+              "assignee": {
+                "displayName": "John Doe"
+              },
+              "status": {
+                "description": "",
+                "name": "IN PROGRESS",
+                "id": "102"
+              }
+            }
+          },
+          {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "99993",
+            "key": "KEY-003",
+            "fields": {
+              "summary": "Jira ticket #3",
+              "assignee": {
+                "displayName": "John Doe"
+              },
+              "status": {
+                "description": "",
+                "name": "IN PROGRESS",
+                "id": "103"
+              }
+            }
+          }
+        ],
+        "names": {
+          "summary": "Summary",
+          "assignee": "Assignee",
+          "status": "Status"
+        }
+      }
+    }
   ]
 }
