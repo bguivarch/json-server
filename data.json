@@ -599,5 +599,123 @@
         }
       ]
     }
+  ],
+
+  "zendesk-tickets": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "url": "https://zendesk_domain.zendesk.com/api/v2/tickets/1.json",
+          "id": 1,
+          "external_id": null,
+          "via": {},
+          "created_at": "2019-02-04T01:54:03Z",
+          "updated_at": "2021-06-29T06:36:30Z",
+          "type": "incident",
+          "subject": "The notification mail was delayed",
+          "raw_subject": "The notification mail was delayed",
+          "description": "Hello support team,     There is a problem API XYZ, cannot connect to the tenant..",
+          "priority": "low",
+          "status": "hold",
+          "recipient": null,
+          "requester_id": 121212,
+          "submitter_id": 121212,
+          "assignee_id": null,
+          "organization_id": 121212,
+          "group_id": 121212,
+          "collaborator_ids": [],
+          "follower_ids": [],
+          "email_cc_ids": [],
+          "forum_topic_id": null,
+          "problem_id": null,
+          "has_incidents": false,
+          "is_public": true,
+          "due_at": null,
+          "tags": [
+            "feature-suggestion",
+            "freshdesk",
+            "freshdesk-import",
+            "hiveaccess",
+            "japac",
+            "level_3",
+            "other",
+            "other_task",
+            "partner"
+          ],
+          "custom_fields": [],
+          "satisfaction_rating": {
+            "score": "unoffered"
+          },
+          "sharing_agreement_ids": [],
+          "custom_status_id": 12121212,
+          "fields": [],
+          "followup_ids": [],
+          "ticket_form_id": 121212,
+          "brand_id": 121212,
+          "allow_channelback": false,
+          "allow_attachments": true,
+          "from_messaging_channel": false
+        },
+        {
+          "url": "https://zendesk_domain.zendesk.com/api/v2/tickets/2.json",
+          "id": 2,
+          "external_id": null,
+          "via": {
+            "channel": "api",
+            "source": {
+              "from": {},
+              "to": {},
+              "rel": null
+            }
+          },
+          "created_at": "2019-02-27T04:24:07Z",
+          "updated_at": "2021-06-29T06:37:22Z",
+          "type": "incident",
+          "subject": "Community follow issue",
+          "raw_subject": "Community follow issue",
+          "description": "A user cannot follow the community.      Any ideas? Is this a bug??",
+          "priority": "normal",
+          "status": "hold",
+          "recipient": null,
+          "requester_id": 121212,
+          "submitter_id": 121212,
+          "assignee_id": null,
+          "organization_id": 121212,
+          "group_id": 121212,
+          "collaborator_ids": [],
+          "follower_ids": [],
+          "email_cc_ids": [],
+          "forum_topic_id": null,
+          "problem_id": null,
+          "has_incidents": false,
+          "is_public": true,
+          "due_at": null,
+          "tags": [
+            "freshdesk",
+            "freshdesk-import",
+            "japac",
+            "level_1",
+            "other",
+            "other_task",
+            "partner",
+            "question"
+          ],
+          "custom_fields": [],
+          "satisfaction_rating": {
+            "score": "unoffered"
+          },
+          "sharing_agreement_ids": [],
+          "custom_status_id": 121212,
+          "fields": [],
+          "followup_ids": [],
+          "ticket_form_id": 121212,
+          "brand_id": 121212,
+          "allow_channelback": false,
+          "allow_attachments": true,
+          "from_messaging_channel": false
+        }
+      ]
+    }
   ]
 }
