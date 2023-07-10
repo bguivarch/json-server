@@ -444,53 +444,53 @@
       "data": {
         "isCurrentlyOutOfOffice": false,
         "apps": [
-            {
-                "type": "gmail",
-                "id": "toggle_gmail",
-                "label": "Gmail",
-                "description": "Activate the vacation responder",
-                "icon": ""
-            },
-            {
-                "type": "slack",
-                "label": "Slack",
-                "id": "toggle_slack",
-                "description": "Update your status and set yourself as away",
-                "icon": ""
-            },
-            {
-                "type": "calendar",
-                "id": "toggle_calendar",
-                "label": "Calendar",
-                "description": "Create an out of office event",
-                "icon": ""
-            }
+          {
+            "type": "gmail",
+            "id": "toggle_gmail",
+            "label": "Gmail",
+            "description": "Activate the vacation responder",
+            "icon": ""
+          },
+          {
+            "type": "slack",
+            "label": "Slack",
+            "id": "toggle_slack",
+            "description": "Update your status and set yourself as away",
+            "icon": ""
+          },
+          {
+            "type": "calendar",
+            "id": "toggle_calendar",
+            "label": "Calendar",
+            "description": "Create an out of office event",
+            "icon": ""
+          }
         ],
         "hasNextOutOfOffice": true,
         "nextOutOfOffice": [
-            {
-                "apps": [
-                    {
-                        "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
-                    },
-                    {
-                        "logo": "https://cdn.icon-icons.com/icons2/2631/PNG/512/google_calendar_new_logo_icon_159141.png"
-                    }
-                ],
-                "startDate": "2023-07-07T08:00:00Z",
-                "endDate": "2023-07-09T08:00:00Z"
-            },
-            {
-                "apps": [
-                    {
-                        "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
-                    }
-                ],
-                "startDate": "2023-07-07T08:00:00Z",
-                "endDate": "2023-07-09T08:00:00Z"
-            }
+          {
+            "apps": [
+              {
+                "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+              },
+              {
+                "logo": "https://cdn.icon-icons.com/icons2/2631/PNG/512/google_calendar_new_logo_icon_159141.png"
+              }
+            ],
+            "startDate": "2023-07-07T08:00:00Z",
+            "endDate": "2023-07-09T08:00:00Z"
+          },
+          {
+            "apps": [
+              {
+                "logo": "https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png"
+              }
+            ],
+            "startDate": "2023-07-07T08:00:00Z",
+            "endDate": "2023-07-09T08:00:00Z"
+          }
         ]
-    }
+      }
     }
   ],
 
@@ -558,6 +558,46 @@
           "status": "Status"
         }
       }
+    }
+  ],
+
+  "ms-todo": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "@odata.etag": "W/\"h/1NHRP15kaPHk8Qux3z4AADac7zlQ==\"",
+          "importance": "normal",
+          "isReminderOn": false,
+          "status": "notStarted",
+          "title": "Valider devis client XX",
+          "createdDateTime": "2023-07-10T08:52:34.1706689Z",
+          "lastModifiedDateTime": "2023-07-10T08:57:35.0561112Z",
+          "hasAttachments": false,
+          "categories": [],
+          "id": "U0dE-XmRo8eTxC7HfPgAAAAAAESAACH-U0dE-XmRo8eTxC7HfPgAANqTCxGAAA=",
+          "body": {
+            "content": "",
+            "contentType": "text"
+          }
+        },
+        {
+          "@odata.etag": "W/\"h/1NHRP15kaPHk8Qux3z4AADac7zkA==\"",
+          "importance": "normal",
+          "isReminderOn": false,
+          "status": "notStarted",
+          "title": "Préparation meeting XXXX",
+          "createdDateTime": "2023-07-10T08:52:25.1443341Z",
+          "lastModifiedDateTime": "2023-07-10T08:57:25.7231313Z",
+          "hasAttachments": false,
+          "categories": [],
+          "id": "U0dE-XmRo8eTxC7HfPgAAAAAAESAACH-U0dE-XmRo8eTxC7HfPgAANqTCxFAAA=",
+          "body": {
+            "content": "",
+            "contentType": "text"
+          }
+        }
+      ]
     }
   ]
 }
