@@ -569,7 +569,7 @@
           "@odata.etag": "W/\"h/1NHRP15kaPHk8Qux3z4AADac7zlQ==\"",
           "importance": "normal",
           "isReminderOn": false,
-          "status": "notStarted",
+          "status": "completed",
           "title": "Valider devis client XX",
           "createdDateTime": "2023-07-10T08:52:34.1706689Z",
           "lastModifiedDateTime": "2023-07-10T08:57:35.0561112Z",
