@@ -576,6 +576,25 @@
           "status": "Status"
         }
       }
+    },
+    {
+      "id": "projects",
+      "data": {
+        "projects": [
+          {
+            "name": "DEMO Project", "KEY": "DEMO"
+          },
+          {
+            "name": "IAM Project", "KEY": "IAM"
+          },
+          {
+            "name": "Marketplace Project", "KEY": "MKT"
+          },
+          {
+            "name": "Tests Project", "KEY": "TEST"
+          }
+        ]
+      }
     }
   ],
 
