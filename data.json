@@ -904,5 +904,239 @@
         }
       ]
     }
+  ],
+
+  "outlook": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "id": "001",
+          "threadId": "001",
+          "snippet": "Michael, kindly review the attached design mockups for our next release.",
+          "To": "michael@company.com",
+          "From": "Jasmine Roberts",
+          "Subject": "New Design Mockups",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "002",
+          "threadId": "002",
+          "snippet": "Hi Michael, wanted to touch base regarding our meeting next week.",
+          "To": "michael@company.com",
+          "From": "Anita Das",
+          "Subject": "Upcoming Meeting",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "003",
+          "threadId": "003",
+          "snippet": "Michael, here are the quarterly analytics reports you requested.",
+          "To": "michael@company.com",
+          "From": "David Morgan",
+          "Subject": "Quarterly Reports",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "004",
+          "threadId": "004",
+          "snippet": "Greetings Michael, I've finalized the presentation for tomorrow's product launch.",
+          "To": "michael@company.com",
+          "From": "Lucia Fernandez",
+          "Subject": "Product Launch Presentation",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "005",
+          "threadId": "005",
+          "snippet": "Hey Michael, can you provide feedback on our latest user feedback survey?",
+          "To": "michael@company.com",
+          "From": "Ethan Wallace",
+          "Subject": "Feedback on User Survey",
+          "link": "https://gmail.com"
+        }
+      ]
+    }
+  ],
+  "onedrive": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "mimeType": "application/vnd.google-apps.document",
+          "lastUpdate": "2023-09-20T09:10:55.164Z",
+          "embedLink": "https://office.com",
+          "title": "Partner sales enablement program",
+          "isFolder": false,
+          "link": "https://office.com",
+          "id": "1234"
+        },
+        {
+          "mimeType": "application/vnd.google-apps.document",
+          "lastUpdate": "2023-09-21T09:10:55.164Z",
+          "embedLink": "https://office.com",
+          "title": "Teaser video script",
+          "isFolder": false,
+          "link": "https://office.com",
+          "id": "5678"
+        },
+        {
+          "mimeType": "application/vnd.google-apps.document",
+          "lastUpdate": "2023-09-22T09:10:55.164Z",
+          "embedLink": "https://office.com",
+          "title": "Advisory Board Meeting",
+          "isFolder": false,
+          "link": "https://office.com",
+          "id": "9123"
+        },
+        {
+          "mimeType": "application/vnd.google-apps.document",
+          "lastUpdate": "2023-09-23T09:10:55.164Z",
+          "embedLink": "https://office.com",
+          "title": "Roadmap customer presentation",
+          "isFolder": false,
+          "link": "https://office.com",
+          "id": "0456"
+        },
+        {
+          "mimeType": "application/vnd.google-apps.document",
+          "lastUpdate": "2023-09-24T09:10:55.164Z",
+          "embedLink": "https://office.com",
+          "title": "Security RFP questions",
+          "isFolder": false,
+          "link": "https://office.com",
+          "id": "0789"
+        }
+      ]
+    }
+  ],
+  "gmail": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "id": "123",
+          "threadId": "123",
+          "snippet": "Dear Michael, find enclosed our latest proposal",
+          "To": "me@company.com",
+          "From": "Michael Lavin",
+          "Subject": "Video Proposal",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "123",
+          "threadId": "123",
+          "snippet": "Michael, can you have a look at this specifications please?",
+          "To": "me@company.com",
+          "From": "Todd Viper Lavin",
+          "Subject": "New specs definition",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "123",
+          "threadId": "123",
+          "snippet": "Hi Michael, the duration of the setup is usualy of 2 months.",
+          "To": "me@company.com",
+          "From": "Sarah Vidal",
+          "Subject": "Project duration estimate",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "123",
+          "threadId": "123",
+          "snippet": "Michael, here is the link to the SDK",
+          "To": "me@company.com",
+          "From": "Olivia Durant",
+          "Subject": "Link to our SDK",
+          "link": "https://gmail.com"
+        },
+        {
+          "id": "123",
+          "threadId": "123",
+          "snippet": "Michael, can you please review this application asap?",
+          "To": "me@company.com",
+          "From": "Patricia Miller",
+          "Subject": "New Candidate review",
+          "link": "https://gmail.com"
+        }
+      ]
+    }
+  ],
+  "serviceNow": [
+    {
+      "id": "list",
+      "data": [
+        {
+          "type": "incident",
+          "sys_id": "u7i8o9p0z1a2",
+          "number": "INC0010028",
+          "short_description": "VPN not connecting",
+          "description": "Having trouble connecting to the company VPN from home.",
+          "state": "New",
+          "category": "Software",
+          "subcategory": "Network",
+          "assigned_to": "Gina Red",
+          "caller_id": "Hank Blue",
+          "opened_at": "2023-09-23 16:20:00",
+          "comments": "Checking with the network team"
+        },
+        {
+          "type": "request",
+          "sys_id": "m1n2o3p4q5r6",
+          "number": "REQ0010027",
+          "short_description": "Request for new mouse",
+          "description": "My mouse is malfunctioning. Need a replacement.",
+          "state": "Fulfilled",
+          "category": "Hardware",
+          "subcategory": "Peripheral",
+          "assigned_to": "Eva Black",
+          "caller_id": "Frank Yellow",
+          "opened_at": "2023-09-23 14:45:00",
+          "comments": "Delivered new mouse to user's desk"
+        },
+        {
+          "type": "incident",
+          "sys_id": "z1x2c3v4b5n6",
+          "number": "INC0010026",
+          "short_description": "Email account locked",
+          "description": "My email account seems to be locked. Can't login.",
+          "state": "Resolved",
+          "category": "Account",
+          "subcategory": "Email",
+          "assigned_to": "Charlie Green",
+          "caller_id": "Diana White",
+          "opened_at": "2023-09-24 08:15:00",
+          "comments": "User forgot password. Reset and resolved."
+        },
+        {
+          "type": "request",
+          "sys_id": "f6g7h8i9j0k1",
+          "number": "REQ0010025",
+          "short_description": "Request for new software installation",
+          "description": "I need Adobe Photoshop installed on my workstation.",
+          "state": "In Progress",
+          "category": "Software",
+          "subcategory": "Application",
+          "assigned_to": "Alice Brown",
+          "caller_id": "Bob Gray",
+          "opened_at": "2023-09-24 11:30:00",
+          "comments": "Software license approved"
+        },
+        {
+          "type": "incident",
+          "sys_id": "a1b2c3d4e5f1",
+          "number": "INC0010024",
+          "short_description": "Laptop not booting up",
+          "description": "My laptop isn't turning on despite multiple attempts.",
+          "state": "New",
+          "category": "Hardware",
+          "subcategory": "Laptop",
+          "assigned_to": "John Doe",
+          "caller_id": "Jane Smith",
+          "opened_at": "2023-09-25 09:00:00",
+          "comments": "Urgent assistance required"
+        }
+      ]
+    }
   ]
 }
