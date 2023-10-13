@@ -2086,5 +2086,52 @@
         }
       ]
     }
+  ],
+
+  "easyvista": [
+    {
+      "id": "list",
+      "HREF": "https://yourserver.com/api/v1/your_account/requests?max_rows=3&fields=submit_date_ut,requestor.last_name",
+      "record_count": "3",
+      "total_record_count": "1191",
+      "records": [
+        {
+          "HREF": "https://yourserver.com/api/v1/your_account/requests/000002",
+          "RFC_NUMBER": "000002",
+          "SUBMIT_DATE_UT": "2011-11-18T01:00:00.000+01:00",
+          "NAME": "COUCOU",
+          "RESOLVEDFOR": "2023-11-18T01:00:00.000+01:00",
+          "REQUESTOR": {
+            "HREF": "https://yourserver.com/api/v1/your_account/employees/10334",
+            "EMPLOYEE_ID": "10334",
+            "LAST_NAME": "Buxtehude, Andrew"
+          }
+        },
+        {
+          "HREF": "https://yourserver.com/api/v1/your_account/requests/000007",
+          "RFC_NUMBER": "000007",
+          "SUBMIT_DATE_UT": "2011-11-19T01:00:00.000+01:00",
+          "NAME": "COUCOU2",
+          "RESOLVEDFOR": "2023-11-18T01:00:00.000+01:00",
+          "REQUESTOR": {
+            "HREF": "https://yourserver.com/api/v1/your_account/employees/10412",
+            "EMPLOYEE_ID": "10412",
+            "LAST_NAME": "Haring, Andrew"
+          }
+        },
+        {
+          "HREF": "https://yourserver.com/api/v1/your_account/requests/000030",
+          "RFC_NUMBER": "000030",
+          "SUBMIT_DATE_UT": "2012-03-13T01:00:00.000+01:00",
+          "NAME": "COUCOU3",
+          "RESOLVEDFOR": "2023-11-18T01:00:00.000+01:00",
+          "REQUESTOR": {
+            "HREF": "https://yourserver.com/api/v1/your_account/employees/10409",
+            "EMPLOYEE_ID": "10409",
+            "LAST_NAME": "Haller, Xavier"
+          }
+        }
+      ]
+    }
   ]
 }
